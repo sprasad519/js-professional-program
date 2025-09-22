@@ -10,4 +10,4 @@ console.log("Whole number: " + wholeNumber);
 console.log("Decimal number : " + decimalNumber);
 console.log("Negative number " + negativeNumber);
 console.log("Sum: " + sum);
-console.log("Difference");
+console.log("Difference.");
