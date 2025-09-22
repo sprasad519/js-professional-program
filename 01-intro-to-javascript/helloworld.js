@@ -1,1 +1,1 @@
-console.log("Hello Microsoft!");
+console.log("Hello Javascript!");
