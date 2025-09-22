@@ -2,8 +2,8 @@
 
 // creating basic profile information
 
-let userName = "Alex";
-let userAge = 25;
+let userName = "SIVAPRASAD.G";
+let userAge = 36;
 let isStudent = true;
 
 // Display the profile information
