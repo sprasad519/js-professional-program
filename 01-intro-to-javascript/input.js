@@ -9,12 +9,12 @@ try {
 
   // Check if it's a valid number
   if (isNaN(ageNumber)) {
-    throw "That's not a valid age!";
+    throw new Error("That's not a valid age!");
   }
 
   // Check if age is in valid range
   if (ageNumber < 0 || ageNumber > 120) {
-    throw "Age must be between 0 and 120!";
+    throw new Error("Age must be between 0 and 120!");
   }
 
   // Tell them about driving
@@ -24,5 +24,5 @@ try {
     console.log("You are not old enough to drive yet.");
   }
 } catch (error) {
-  console.log("Error: " + error);
+  console.log("Error: " + error.message);
 }
